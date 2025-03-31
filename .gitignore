@@ -1,0 +1,85 @@
+# Visual Studio e Rider
+.vs/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build
+bin/
+obj/
+out/
+*.cache
+*.dll
+*.exe
+*.pdb
+*.log
+*.ilk
+*.lib
+*.ncb
+*.sdf
+*.sln.cache
+*.suo
+*.tlb
+*.tlh
+*.tmp
+*.rsuser
+*.userprefs
+
+# Configurações e dependências locais
+appsettings.Development.json
+appsettings.Local.json
+node_modules/
+dist/
+packages/
+*.nupkg
+*.snupkg
+project.lock.json
+project.assets.json
+
+# Logs e arquivos temporários
+logs/
+*.log
+**/logs
+**/*.log
+*.tlog
+*.vspx
+*.testresults
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
+*.gcda
+*.gcno
+*.gcov
+*.coverlet.*
+*.opencover.xml
+
+# IDEs e editores
+.vscode/
+*.code-workspace
+*.swp
+*.swo
+
+# Docker, Kubernetes e CI/CD
+docker-compose.override.yml
+Dockerfile
+.dockerignore
+.env
+*.tfstate
+terraform.tfstate*
+.terraform/
+.terraform.lock.hcl
+
+# Certificados e senhas
+*.pfx
+*.p12
+secrets.json
+
+# Banco de dados local
+*.mdf
+*.ldf
+*.db
+*.sqlite
+*.sqlite3
